@@ -1,0 +1,8 @@
+{
+  "name": "Own_Data",
+  "version": "1.0.0",
+  "description": "Own_my_Data from graphCMS",
+  "main": "index.js",
+  "author": "SeanKim <sean.kim84@gmail.com>",
+  "license": "MIT"
+}
