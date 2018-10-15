@@ -1,13 +1,18 @@
 import Link from 'next/link';
+import Header from '../components/Header';
 
-const index = () => (
+const Index = () => (
     <div>
-        <Link href="/header">
-            <a>Header</a>
-        </Link>
-        <Link href="/about">
-            <a>About</a>
-        </Link>
+        <Header />
+        <h1>
+            안녕~! NextJS
+        </h1>
+        <h2>
+            <Link href="/about">
+                <a style={{backgroundColor: 'black', color: 'white'}}>소개</a>
+            </Link>
+        </h2>
     </div>
 )
-export default index; 
+
+export default Index;

@@ -1,6 +1,9 @@
+import Header from '../components/Header';
+
 const About = () => (
     <div>
-        <h1>About Me</h1>
+        <Header />
+        <h2>안녕하세요 Sean 입니다</h2>
     </div>
 )
 
